@@ -20,6 +20,7 @@ repositories {
 }
 
 dependencies {
+    implementation   group: 'org.jetbrains',            name: 'annotations',      version: '23.0.0'
     implementation   group: 'org.slf4j',                name: 'slf4j-api',        version: '1.7.36'
     implementation   group: 'org.apache.logging.log4j', name: 'log4j-api',        version: '2.18.0'
     runtimeClasspath group: 'org.apache.logging.log4j', name: 'log4j-core',       version: '2.18.0'
