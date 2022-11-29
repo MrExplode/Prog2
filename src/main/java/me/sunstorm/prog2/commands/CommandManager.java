@@ -17,8 +17,8 @@ public class CommandManager {
     public CommandManager(StudentManager sm) {
         registerCommand(new ListStudentsCommand(sm));
 
-        registerMenu(new Menu("book", List.of(new AddStudentCommand(sm), new RemoveStudentCommand(sm))));
-        registerMenu(new Menu("bookshelf", Collections.emptyList()));
+        //registerMenu(new Menu("book", List.of(new AddStudentCommand(sm), new RemoveStudentCommand(sm))));
+        //registerMenu(new Menu("bookshelf", Collections.emptyList()));
     }
 
     public void registerCommand(Command c) {
